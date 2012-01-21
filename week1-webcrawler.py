@@ -65,7 +65,7 @@ def crawl(url, search_text, depth):
 def main():
 	# Print usage if parameters are wrong
 	if len(sys.argv) != 4:
-		print("Usage: python week1-webcrawler.py $url $searchtext $depth")
+		print("Usage: python2 week1-webcrawler.py $url $searchtext $depth")
 		exit()
 
 	url = sys.argv[1]
